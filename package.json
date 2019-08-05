@@ -1,0 +1,27 @@
+{
+  "name": "front-end-grupo-vitorelli",
+  "version": "1.0.0",
+  "description": "Teste para seleção Grupo Vitorelli.\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[Cda Grupo Vitorelli.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/brendamatias/front-end-grupo-vitorelli.git"
+  },
+  "author": "Brenda Matias",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/brendamatias/front-end-grupo-vitorelli/issues"
+  },
+  "homepage": "https://github.com/brendamatias/front-end-grupo-vitorelli#readme",
+  "devDependencies": {
+    "browser-sync": "^2.26.7",
+    "gulp": "^4.0.2"
+  },
+  "dependencies": {
+    "gulp-autoprefixer": "^6.1.0",
+    "gulp-sass": "^4.0.2"
+  }
+}

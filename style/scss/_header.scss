@@ -1,0 +1,40 @@
+header {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    background: transparent;
+    padding: 20px 97px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    width: 208px;
+    height: 54px;
+}
+
+.navbar ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.navbar ul li a {
+    color: #ffffff;
+    font-size: 14.5px;
+    text-transform: uppercase;
+    padding: 20px;
+}
+
+.icons {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.icons img {
+    width: 20px;
+    padding: 10px;
+}
