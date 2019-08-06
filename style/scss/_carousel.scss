@@ -1,0 +1,42 @@
+#carousel {
+  position: relative;
+  top: -80px;
+  margin: 0 100px;
+  display: flex;
+  align-items: center;
+  height: 260px;
+}
+#carousel div {
+  padding: 10px 0;
+  text-align: center;
+  margin: 4px;
+}
+#carousel img {
+  width: 100%;
+  margin: auto;
+}
+#carousel h4 {
+  font-size: 14px;
+  color: #878787;
+  font-weight: 400;
+  margin: 4px 20px;
+}
+#carousel h3 {
+  font-size: 14px;
+}
+#carousel span {
+  font-size: 18px;
+}
+#carousel span,
+#carousel h3 {
+  color: #4a4a49;
+  font-weight: 700;
+}
+.carousel-item {
+  display: block;
+  background: white;
+  padding: 200px;
+}
+#carousel button {
+  font-size: 30px;
+}

@@ -1,40 +1,145 @@
+/* Header */
 header {
-    width: 100%;
-    position: fixed;
-    top: 0;
-    background: transparent;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  background: transparent;
 }
-
 nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px 97px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 97px;
 }
 
+/* Logo Header */
 .logo img {
-    width: 208px;
-    height: 54px;
+  width: 200px;
+  height: 46px;
 }
 
+/* Links Header */
 .navbar ul {
-    display: flex;
-    flex-wrap: wrap;
+  display: flex;
+  flex-wrap: wrap;
+}
+.droplink {
+  color: #fff;
+  font-size: 14.5px;
+  text-transform: uppercase;
+  padding: 20px;
+}
+.droplink:hover {
+  color: $orange;
+  background: #fff;
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: rgba($orange, 0.9);
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  margin-top: 20px;
+  padding: 20px;
+}
+.dropdown-content a {
+  color: #fff !important;
+  padding: 5px 10px;
+  text-decoration: none;
+  display: block;
+}
+.dropdown-content a:hover {
+  color: #000 !important;
+}
+.dropdown:hover .dropdown-content {
+  display: block;
 }
 
-.navbar ul li a {
-    color: #ffffff;
-    font-size: 14.5px;
-    text-transform: uppercase;
-    padding: 20px;
+/* Icons Header */
+.search {
+  right: 0;
 }
-
+.dropdown-content input {
+  border: none;
+  background: transparent;
+  padding: 0 400px;
+}
+.dropdown-content input::placeholder {
+  color: #fff;
+}
 .icons {
-    display: flex;
-    flex-wrap: wrap;
+  display: flex;
+  flex-wrap: wrap;
+}
+.icons img {
+  width: 20px;
+  padding: 10px;
+}
+.cart {
+  font-size: 14px;
+  color: #fff;
+  right: 0;
+  width: 390px !important;
+}
+.cart-item {
+  display: flex;
+}
+.cart-item h6 {
+  padding-bottom: 15px;
+  font-size: 10px;
+  color: rgba(255, 255, 255, 0.8);
 }
 
-.icons img {
-    width: 20px;
-    padding: 10px;
+.cart div {
+  margin: 10px;
+}
+.cart-produto {
+  margin: 0 !important;
+  display: flex;
+}
+.cart img {
+  width: 60px;
+  padding: 0px;
+  padding-right: 5px;
+}
+
+.finalizar-pedido,
+.finalizar-pedido div {
+  display: flex;
+}
+.finalizar-pedido {
+  justify-content: space-between;
+}
+.finalizar-pedido h5 {
+  font-size: 14px;
+  padding-left: 5px;
+}
+.finalizar-pedido h6 {
+  font-size: 10px;
+  color: rgba(255, 255, 255, 0.8);
+}
+.finalizar-pedido span {
+  font-size: 13px;
+  border: 1px solid rgba(255, 255, 255, 0.8);
+  padding: 10px 10px 0 10px !important;
+  cursor: pointer;
+}
+.excluir {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+/* Scroll Header */
+.header-scroll {
+  background: #fff;
+  color: $cinza;
+  box-shadow: 0 0 10px #eee;
+  z-index: 2;
+}
+.header-scroll ul li a {
+  color: $cinza;
 }

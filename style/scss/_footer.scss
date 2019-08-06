@@ -4,10 +4,10 @@
   background-size: cover;
   background-attachment: fixed;
   display: block;
+  padding: 30px 0;
   color: white;
-  padding: 30px 100px;
   font-size: 14px;
-  font-weight: 400;
+  font-weight: 700;
 }
 .footer-texto {
   display: flex;
@@ -23,14 +23,21 @@
   display: flex;
   justify-content: center;
 }
+.footer-links ul li a {
+  color: white;
+}
+.footer-links ul li a:hover {
+  color: $orange;
+}
 .footer-links div {
   margin: 0 25px;
 }
 .footer-links input {
+  margin-top: 10px;
   width: 250px;
   padding: 15px;
   background: rgba(246, 246, 246, 0.3);
-  color: #828282;
+  color: $cinza;
   border: none;
   outline: none;
 }
@@ -41,7 +48,7 @@
 /* Footer Bottom */
 .footer-bottom {
   font-size: 13px;
-  color: #828282;
+  color: $cinza;
   margin: 10px 75px;
 }
 .footer-bottom,
@@ -51,29 +58,37 @@
   align-items: center;
   flex-wrap: wrap;
 }
-
 .footer-bottom div {
   margin: 0 30px;
 }
-
 .footer-bottom .pagamento,
 .footer-bottom .seguranca {
   text-transform: uppercase;
 }
-
 .footer-bottom h4 {
   padding: 0 10px;
   font-weight: 400;
 }
-
 .footer-bottom .logo-footer img {
   width: 60px;
 }
-
 .footer-bottom .pagamento img {
   width: 40px;
 }
-
 .footer-bottom .footer img {
   padding: 0 4px;
+}
+.footer-links button {
+  border: none;
+  background: url("../imgs/footer/seta.png") no-repeat center center;
+  background-size: 100%;
+  width: 8px;
+  height: 20px;
+  position: relative;
+  top: 5px;
+  left: -24px;
+}
+.footer-links .form {
+  display: flex;
+  align-items: center;
 }
