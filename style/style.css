@@ -67,7 +67,6 @@ nav {
 .banner-principal {
   background: url("../imgs/banner-principal.jpg") no-repeat center center;
   background-size: cover;
-  background-attachment: fixed;
   display: block;
   color: #ffffff;
   text-transform: uppercase;
@@ -94,10 +93,21 @@ nav {
 }
 
 .banner-secundario {
-  background: url("../imgs/banner2.jpg") center center no-repeat;
+  background-image: url("../imgs/banner2.jpg");
+  background-repeat: no-repeat;
   background-size: cover;
-  background-attachment: fixed;
   height: 840px;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 0 200px;
 }
 
 .banner-secundario img {
@@ -106,7 +116,24 @@ nav {
   max-width: 100%;
 }
 
-.produtos-fotos ul {
+.banner-secundario div {
+  text-align: right;
+}
+
+.banner-secundario h1 {
+  font-size: 50px;
+  font-weight: 200;
+  line-height: 62px;
+  margin-bottom: 35px;
+}
+
+.banner-secundario span {
+  font-size: 14px;
+  letter-spacing: 10px;
+  cursor: pointer;
+}
+
+.produtos-fotos {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -115,20 +142,79 @@ nav {
   justify-content: center;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
-}
-
-.produtos-fotos li {
-  max-width: 300px;
-  padding: 30px 20px;
+  margin: 22px 0;
 }
 
 .produtos-fotos img {
-  position: relative;
-  z-index: -1;
+  width: 100%;
 }
 
-.produtos-fotos li:hover .image {
-  background: rgba(0, 255, 255, 0.5);
+.produto-1 div,
+.produto-2 div,
+.produto-3 div {
+  z-index: -1;
+  color: white;
+}
+
+.produtos-fotos h2 {
+  font-size: 40px;
+  font-weight: 400;
+  margin-bottom: 30px;
+}
+
+.produtos-fotos h2::after {
+  content: "";
+  background: white;
+  display: block;
+  width: 63px;
+  height: 2px;
+  margin: 20px auto;
+}
+
+.produtos-fotos h3 {
+  font-size: 13px;
+  font-weight: 400;
+  letter-spacing: 6px;
+}
+
+.produto-1 {
+  background-image: url("../imgs/banner-maios.jpg");
+}
+
+.produto-2 {
+  background-image: url("../imgs/banner-bodies.jpg");
+}
+
+.produto-3 {
+  background-image: url("../imgs/banner-biquinis.jpg");
+}
+
+.produto-1,
+.produto-2,
+.produto-3 {
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 350px;
+  height: 350px;
+  margin: 10px;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.produto-1:hover,
+.produto-2:hover,
+.produto-3:hover {
+  z-index: 1;
+  background: #eb5f3d;
 }
 
 .produtos {
