@@ -1,0 +1,33 @@
+.produtos {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 50px;
+  position: relative;
+  top: -80px;
+  height: 160px;
+}
+
+.produtos div {
+  padding: 20px 10px;
+  max-width: 230px;
+  margin: 4px;
+  text-align: center;
+  background: white;
+}
+
+.produtos h4 {
+  font-size: 14px;
+  color: #878787;
+  font-weight: 400;
+}
+
+.produtos span {
+  font-size: 18px;
+  color: #4a4a49;
+  font-weight: 700;
+}
+
+.produtos img {
+  width: 100%;
+}

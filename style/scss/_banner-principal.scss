@@ -1,15 +1,18 @@
 .banner-principal {
-    background-image: url("../imgs/banner-principal.jpg");    
-    background-size: 100%;
-    background-repeat: no-repeat;
-    height: 739px;
-    display: flex;
-    align-items: center;
-    text-transform: uppercase;
-    padding-left: 200px; 
+    background: url("../imgs/banner-principal.jpg") no-repeat center center; 
+    background-size: cover;
+    background-attachment: fixed;
+    display: block;
     color: #ffffff;
+    text-transform: uppercase;
+    padding: 200px;
 }
+/* 
 
+    height: 639px;
+    display: flex;
+    padding-left: 200px; 
+    color: #ffffff;*/ 
 .banner-principal h1 {
     font-size: 50px;
     font-weight: 200;

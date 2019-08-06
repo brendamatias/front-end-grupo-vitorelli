@@ -1,9 +1,12 @@
-@import 'reset';
-@import 'variables';
-@import 'header';
-@import 'banner-principal';
-@import 'produtos-fotos';
+@import "reset";
+@import "variables";
+@import "header";
+@import "banner-principal";
+@import "banner-secundario";
+@import "produtos-fotos";
+@import "produtos";
+@import "footer";
 
 body {
-    font-family: 'Nunito', sans-serif;
+  font-family: "Nunito", sans-serif;
 }

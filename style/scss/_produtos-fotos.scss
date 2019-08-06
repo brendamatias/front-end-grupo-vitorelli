@@ -1,5 +1,20 @@
-.produtos-fotos div {
+.produtos-fotos ul {
   display: flex;
-  height: 470px;
-  margin: 22px 80px;
+  justify-content: center;     
+  flex-wrap: wrap;
+}
+
+.produtos-fotos li {
+  max-width: 300px;
+  padding: 30px 20px;
+}
+
+.produtos-fotos img {
+  position: relative;
+    z-index: -1;
+}
+
+
+.produtos-fotos li:hover .image{    
+  background: rgba(0, 255, 255, 0.5);
 }
