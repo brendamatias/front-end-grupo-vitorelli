@@ -78,7 +78,11 @@ nav {
 }
 .icons img {
   width: 20px;
-  padding: 10px;
+  padding: 15px;
+  cursor: pointer;
+}
+.icons .droplink:hover {
+  background: rgba($orange, 0.8);
 }
 .cart {
   font-size: 14px;
@@ -92,7 +96,7 @@ nav {
 .cart-item h6 {
   padding-bottom: 15px;
   font-size: 10px;
-  color: rgba(255, 255, 255, 0.8);
+  color: $branco-hover;
 }
 
 .cart div {
@@ -121,16 +125,16 @@ nav {
 }
 .finalizar-pedido h6 {
   font-size: 10px;
-  color: rgba(255, 255, 255, 0.8);
+  color: $branco-hover;
 }
 .finalizar-pedido span {
   font-size: 13px;
-  border: 1px solid rgba(255, 255, 255, 0.8);
+  border: 1px solid $branco-hover;
   padding: 10px 10px 0 10px !important;
   cursor: pointer;
 }
 .excluir {
-  color: rgba(255, 255, 255, 0.8);
+  color: $branco-hover;
 }
 
 /* Scroll Header */
@@ -142,4 +146,10 @@ nav {
 }
 .header-scroll ul li a {
   color: $cinza;
+}
+.header-scroll .droplink:hover {
+  background: rgba($orange, 0.6);
+}
+.header-scroll .droplink:hover {
+  color: #fff;
 }

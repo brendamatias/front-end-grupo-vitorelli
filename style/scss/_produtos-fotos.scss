@@ -11,7 +11,7 @@
 .produto-2 div,
 .produto-3 div {
   z-index: -1;
-  color: white;
+  color: #fff;
 }
 .produtos-fotos h2 {
   font-size: 40px;
@@ -20,7 +20,7 @@
 }
 .produtos-fotos h2::after {
   content: "";
-  background: white;
+  background: #fff;
   display: block;
   width: 63px;
   height: 2px;

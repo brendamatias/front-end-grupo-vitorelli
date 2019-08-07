@@ -2,7 +2,7 @@
   background: url("../imgs/banner-principal.jpg") no-repeat center center;
   background-size: cover;
   display: block;
-  color: #ffffff;
+  color: #fff;
   text-transform: uppercase;
   padding: 200px;
 }
@@ -26,22 +26,27 @@
 .slide {
   display: flex;
   justify-content: center;
-  align-items: flex-end;
+  position: relative;
+  bottom: -170px;
+  cursor: pointer;
 }
 .slide-item {
   content: "";
   width: 15px;
   height: 15px;
   border-radius: 50%;
-  background: white;
+  background: #fff;
   margin: 5px;
+}
+.slide-item:hover {
+  background: $branco-hover;
 }
 .banner-secundario {
   background-image: url("../imgs/banner2.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   height: 840px;
-  color: white;
+  color: #fff;
   display: flex;
   justify-content: flex-end;
   align-items: center;
