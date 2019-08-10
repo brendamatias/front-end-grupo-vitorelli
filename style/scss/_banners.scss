@@ -4,30 +4,30 @@
   display: block;
   color: #fff;
   text-transform: uppercase;
-  padding: 200px;
 }
-.banner-principal h1,
-.banner-secundario h1 {
-  font-size: 50px;
+.banner-principal .banner-content {
+  padding: 250px 0 250px 260px;
+}
+.banner-principal h1 {
+  font-size: 66px;
   font-weight: 200;
-  line-height: 62px;
-  margin-bottom: 35px;
+  line-height: 83px;
+  margin-bottom: 50px;
 }
-.banner-principal span,
-.banner-secundario span {
-  font-size: 14px;
+.banner-principal span {
+  font-size: 18.6px;
   letter-spacing: 10px;
   cursor: pointer;
 }
-.banner-principal span:hover,
-.banner-secundario span:hover {
+.banner-principal span:hover {
   color: $orange;
 }
 .slide {
   display: flex;
   justify-content: center;
   position: relative;
-  bottom: -170px;
+  bottom: 30px;
+  flex-wrap: wrap;
   cursor: pointer;
 }
 .slide-item {
@@ -42,15 +42,9 @@
   background: $branco-hover;
 }
 .banner-secundario {
-  background-image: url("../imgs/banner2.jpg");
-  background-repeat: no-repeat;
+  background: url("../imgs/banner2.jpg") no-repeat center center;
   background-size: cover;
   height: 840px;
-  color: #fff;
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-  padding: 0 200px;
 }
 .banner-secundario div {
   text-align: right;

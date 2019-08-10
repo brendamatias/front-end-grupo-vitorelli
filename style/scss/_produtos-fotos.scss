@@ -2,7 +2,7 @@
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  margin: 22px 0;
+  margin: 30px 0;
 }
 .produtos-fotos img {
   width: 100%;
@@ -15,7 +15,7 @@
 }
 .produtos-fotos h2 {
   font-size: 40px;
-  font-weight: 400;
+  font-weight: 200;
   margin-bottom: 30px;
 }
 .produtos-fotos h2::after {
@@ -28,7 +28,7 @@
 }
 .produtos-fotos h3 {
   font-size: 13px;
-  font-weight: 400;
+  font-weight: 200;
   letter-spacing: 6px;
 }
 .produto-1 {
@@ -45,9 +45,9 @@
 .produto-3 {
   background-repeat: no-repeat;
   background-size: cover;
-  width: 350px;
-  height: 350px;
-  margin: 10px;
+  width: 465px;
+  height: 465px;
+  margin: 0 15px;
   cursor: pointer;
   display: flex;
   align-items: center;

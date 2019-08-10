@@ -9,13 +9,7 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 10px 97px;
-}
-
-/* Logo Header */
-.logo img {
-  width: 200px;
-  height: 46px;
+  padding: 18.624px 136.032px 17.376px 129.312px;
 }
 
 /* Links Header */
@@ -25,13 +19,13 @@ nav {
 }
 .droplink {
   color: #fff;
-  font-size: 14.5px;
+  font-size: 19px;
+  font-weight: 200;
   text-transform: uppercase;
-  padding: 20px;
+  padding: 21.696px;
 }
 .droplink:hover {
   color: $orange;
-  background: #fff;
 }
 .dropdown {
   position: relative;
@@ -41,7 +35,7 @@ nav {
   display: none;
   position: absolute;
   background-color: rgba($orange, 0.9);
-  min-width: 160px;
+  min-width: 100%;
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
   margin-top: 20px;
@@ -76,13 +70,11 @@ nav {
   display: flex;
   flex-wrap: wrap;
 }
-.icons img {
-  width: 20px;
-  padding: 15px;
-  cursor: pointer;
+.icons .droplink {
+  padding: 0 6px;
 }
-.icons .droplink:hover {
-  background: rgba($orange, 0.8);
+.icons button {
+  cursor: pointer;
 }
 .cart {
   font-size: 14px;
@@ -130,7 +122,7 @@ nav {
 .finalizar-pedido span {
   font-size: 13px;
   border: 1px solid $branco-hover;
-  padding: 10px 10px 0 10px !important;
+  padding: 10px 20px 0 20px !important;
   cursor: pointer;
 }
 .excluir {
@@ -146,10 +138,4 @@ nav {
 }
 .header-scroll ul li a {
   color: $cinza;
-}
-.header-scroll .droplink:hover {
-  background: rgba($orange, 0.6);
-}
-.header-scroll .droplink:hover {
-  color: #fff;
 }
