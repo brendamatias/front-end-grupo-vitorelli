@@ -9,7 +9,7 @@
 <p align="center">
   <a href="#rocket-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#:zap:-iniciando">Iniciando aplicação</a>
+  <a href="#zap-iniciando">Iniciando aplicação</a>
 </p>
 
 <br>
@@ -31,7 +31,7 @@ Site web OXUA Beach - Loja de roupas de praia desenvolvido para seleção do Gru
 
 ## ⚡️ Iniciando aplicação
 
-- Clone este repositório usando `git@github.com:brendamatias/oxua-beach.git`;
+- Clone este repositório usando `git clone git@github.com:brendamatias/oxua-beach.git`;
 - Mova-se para diretório: `cd oxua-beach`;
 - Instale as dependências: `yarn install` ou `npm install`;
 - Executar a aplicação: `yarn gulp` ou `npm gulp`;
