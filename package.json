@@ -1,21 +1,14 @@
 {
-  "name": "front-end-grupo-vitorelli",
+  "name": "oxua-beach",
   "version": "1.0.0",
-  "description": "Teste para seleção Grupo Vitorelli.\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[Cda Grupo Vitorelli.",
+  "description": "Site web OXUA Beach - Loja de roupas de praia.",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/brendamatias/front-end-grupo-vitorelli.git"
+    "url": "git+ssh://git@github.com/brendamatias/oxua-beach.git"
   },
   "author": "Brenda Matias",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/brendamatias/front-end-grupo-vitorelli/issues"
-  },
-  "homepage": "https://github.com/brendamatias/front-end-grupo-vitorelli#readme",
   "devDependencies": {
     "browser-sync": "^2.26.7",
     "gulp": "^4.0.2"
